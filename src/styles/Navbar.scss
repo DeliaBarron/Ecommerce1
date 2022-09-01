@@ -1,0 +1,53 @@
+Link{
+  text-decoration: none;
+}
+@mixin btn-styles(){
+  border: none;
+  border-radius: 30px;
+}
+  $input-border-color: #E09F3E;
+  #search::-webkit-search-cancel-button{
+-webkit-appearance: none;
+  }
+  
+  .navbar{
+      border-bottom:2px solid #335C67;
+   
+    &__brand{
+    font-size:25px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: #9E2A2B;
+}
+    &__link{
+        font-size: 18px;
+        color:#E09F3E;
+        text-decoration: none;
+    }
+    &__searchinput{ 
+        outline: none;
+        border: none;
+        border-bottom: 2px solid;
+      border-color: $input-border-color;
+      width: 200%
+      
+    }
+    &__btn-login{
+      @include btn-styles();
+      padding: 5px 10px 5px 10px ;
+      background-color: #9E2A2B;
+    }
+    &__btn-logout{
+      @include btn-styles();
+      padding: 5px 10px 5px 10px ;
+      background-color: #067e36;
+    }
+    &__link-login{
+      text-decoration: none;
+        color: #E09F3E;
+    }
+    &__link-login:hover{
+      color: inherit;
+    }
+  
+}

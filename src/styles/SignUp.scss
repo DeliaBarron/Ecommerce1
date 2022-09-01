@@ -1,0 +1,53 @@
+.signup{
+    &__form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+
+        &__input{
+            outline: none;
+            border:none;
+            border-bottom: 1px solid black;
+            width: 30%;
+            margin-top: 20px;
+        }
+        &__btn-signup{
+            border: none;
+            padding: 5px 10px 5px 10px ;
+            border-radius: 30px;
+            background-color: #335C67;
+            color: #E09F3E;
+            margin-top: 20px;
+        }
+        &__genderLabel{
+            outline: none;
+            border:none;
+            color: gray;
+            width: 30%;
+            margin-top: 20px;
+        }
+        &__genderSelect{
+            outline: none;
+            border: none;
+            border-bottom: 1px solid black;
+            color: #3d3d3d;
+            width: 83%;
+            
+        }
+        &__birthdateInput{
+            color: #3d3d3d;
+            outline: none;
+            width: 80%;
+        }
+        &__birthLabel{
+            outline: none;
+            border:none;
+            color:gray  ;
+            width: 30%;
+            margin-top: 20px;
+            
+        }
+}
+
+
