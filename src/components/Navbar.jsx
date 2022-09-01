@@ -55,7 +55,7 @@ const Navbar = () => {
       </div>
       <div className='nav-item container mx-2 justify-content-end'>
         <div>
-          <h4>{`HOla:${userData}`}</h4>
+          <h4>{`Welcome${userData}`}</h4>
         </div>
         {
           isAuth
